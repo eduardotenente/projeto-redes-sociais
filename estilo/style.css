@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 96vh;
+    width: 98vw;
+}
+
 body{
     background: black url(../pacote-d013/imagens/fundo-madeira.jpg) center top no-repeat fixed;
     background-size: cover;
@@ -7,37 +17,6 @@ body{
 
 section#celular {
     position: relative;
-}
-
-section#menu {
-    position: absolute;
-    left: 96%;
-}
-
-section#menu > a > img {
-    width: 50px;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.616);
-}
-
-section#menu img:hover {
-    position: relative;
-    border: 1px solid purple;
-    box-shadow: 10px 5px 6px rgba(0, 0, 0, 0.575);
-    transition-duration: 1s;
-}
-
-section#menu > a > img:hover {
-    right: 10%;
-}
-
-section#menu img:hover{
-    border: 1px solid white;
-}
-
-section#menu img:hover{
-    border: 2px solid lightgray;
 }
 
 img#iPhone {
@@ -55,4 +34,35 @@ iframe{
     left: 50%;
     top: 50%;
     transform: translate(-50%, 46%);
+}
+
+section#redes {
+    position: absolute;
+    left: 96%;
+}
+
+section#redes > a > img {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.616);
+}
+
+section#redes img:hover {
+    position: relative;
+    border: 1px solid purple;
+    box-shadow: 10px 5px 6px rgba(0, 0, 0, 0.575);
+    transition-duration: 1s;
+}
+
+section#redes > a > img:hover {
+    right: 10%;
+}
+
+section#redes img:hover{
+    border: 1px solid white;
+}
+
+section#redes img:hover{
+    border: 2px solid lightgray;
 }
