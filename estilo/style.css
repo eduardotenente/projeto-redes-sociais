@@ -22,7 +22,22 @@ section#menu > a > img {
 }
 
 section#menu img:hover {
-    
+    position: relative;
+    border: 1px solid purple;
+    box-shadow: 10px 5px 6px rgba(0, 0, 0, 0.575);
+    transition-duration: 1s;
+}
+
+section#menu > a > img:hover {
+    right: 10%;
+}
+
+section#menu img:hover{
+    border: 1px solid white;
+}
+
+section#menu img:hover{
+    border: 2px solid lightgray;
 }
 
 img#iPhone {
